@@ -1,0 +1,12 @@
+.nav-link:link {
+  color:rgb(95, 92, 92);
+}
+.nav-link:visited {
+  color: rgb(255, 255, 255);
+}
+.nav-link:hover {
+  color:rgb(95, 92, 92);
+}
+.nav-link:active {
+  color: rgb(95, 92, 92);
+}
