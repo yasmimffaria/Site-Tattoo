@@ -1,0 +1,29 @@
+#imagem{
+  background-image: url('../img/img.png');
+  height: 600px;
+  background-size: 100%; 
+  background-position: center;
+
+  
+}
+.mask{
+  padding: 80px;
+  text-align: left;
+  color: white;
+  font-size: 30px;
+}
+@font-face {
+  font-family: "stret";
+  src: url("../font/Blackiron.ttf");
+}
+h3{
+  font-family:stret;
+  font-weight: normal;
+  size: 20px;
+}
+.btn{
+  background-color: white;
+  font-family:stret;
+  color: black;
+
+}
