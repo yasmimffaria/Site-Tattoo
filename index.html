@@ -9,54 +9,48 @@
   <link rel="stylesheet" href="bootstrapNew/css/bootstrap.min.css">
   <link rel="stylesheet" href="bootstrapNew/css/mystyle.css">
   <link rel="stylesheet" href="bootstrapNew/css/editImg.css">
+
+
   <title>Home</title>
 </head>
 
 <body>
+
   <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg bg-dark ">
       <div class="container-fluid">
-        <img src="bootstrapNew/img/logo1.png" alt="" height="100px" width="100px">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-           <a class="nav-link" aria-current="page" href="#">Home |</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Portifólio |</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Artistas |</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orçamento |</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Blog </a>
-          </li>
-          <li class="nav-item" style="margin-left:15px;">
-            <a class="nav-link active" href="#">
-              <img src="bootstrapNew/img/login1.png" alt="" srcset="" width="30px" height="30px">
-              Login
-            </a>
-          </li>
+        <img src="bootstrapNew/img/logo1.png" alt="erro imagem" height="80px" width="80px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"> <a class="nav-link" href="#">Home |</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#">Portifólio |</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#">Artistas |</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#">Orçamento |</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#">Blog </a></li>
+          <br><br>
+          <li class="nav-item"> <a class="nav-link" href="#"> <img src="bootstrapNew/img/login1.png" alt="" srcset=""
+                width="30px" height="30px">
+              Login</a></li>
         </ul>
       </div>
     </nav>
-    <div class="p-5 text-center bg-image" id="imagem">
-      <div class="mask">
-        <img src="bootstrapNew/img/logo1.png" width="270px" height="270px">
-        <h3 class="mb-12">Onde cada tatuagem conta
+    <div class="p-5 bg-image"
+      style=" background-image: url('bootstrapNew/img/tattoo.png');height: 400px;background-position: center;">
+      <div style="left: 50%;margin-top: -10%;">
+        <img src="bootstrapNew/img/logo.png">
+        <h3 class="mb-12" style="color:white">Onde cada tatuagem conta
           <br>uma história nova!
         </h3>
         <a class="btn btn-outline-light btn-lg" href="#!" role="button">Saiba mais</a>
       </div>
-    </div>
-    </div>
+
     </div>
   </header>
   <br>
-  <!-- parte 1 -->
   <center>
     <div class="portifolio">
       <h1>Portifolio</h1>
@@ -67,34 +61,56 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="container text-center">
-          <div class="row">
-            <!-- aqui esta as grids para formatar as disposição dos elementos -->
-            <div class="col">
-              <!-- aqui esta os cards do slide 1 -->
-              <div class="card" style="width: 18rem;">
-                <img src="bootstrapNew/img/tatto12.jpg" class="card-img-top" alt="..." height="350px">
-                <div class="card-body" id="avalie">
-                  <h5 class="card-title">Aquarela</h5>
+          <center></center>
+            <div class="row">
+              <!-- aqui esta as grids para formatar as disposição dos elementos -->
+              <div class="col">
+                <!-- aqui esta os cards do slide 1 -->
+                <div class="card" style="width: 18rem;">
+                  <img src="bootstrapNew/img/tatto12.jpg" class="card-img-top" alt="..." height="350px">
+                  <div class="card-body" id="avalie">
+                    <h5 class="card-title">Aquarela</h5>
+                    <div class="star-rating" data-rating="0">
+                      <span class="star" data-value="1">&#9733;</span>
+                      <span class="star" data-value="2">&#9733;</span>
+                      <span class="star" data-value="3">&#9733;</span>
+                      <span class="star" data-value="4">&#9733;</span>
+                      <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="bootstrapNew/img/tatto11.jpg" class="card-img-top" alt="..." height="350px">
+                  <div class="card-body" id="avalie">
+                    <h5 class="card-title">Card title</h5>
+                    <div class="star-rating" data-rating="0">
+                      <span class="star" data-value="1">&#9733;</span>
+                      <span class="star" data-value="2">&#9733;</span>
+                      <span class="star" data-value="3">&#9733;</span>
+                      <span class="star" data-value="4">&#9733;</span>
+                      <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="bootstrapNew/img/tatto3.jpg" class="card-img-top" alt="..." height="350px">
+                  <div class="card-body" id="avalie">
+                    <h5 class="card-title">Card title</h5>
+                    <div class="star-rating" data-rating="0">
+                      <span class="star" data-value="1">&#9733;</span>
+                      <span class="star" data-value="2">&#9733;</span>
+                      <span class="star" data-value="3">&#9733;</span>
+                      <span class="star" data-value="4">&#9733;</span>
+                      <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img src="bootstrapNew/img/tatto11.jpg" class="card-img-top" alt="..." height="350px">
-                <div class="card-body" id="avalie">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img src="bootstrapNew/img/tatto3.jpg" class="card-img-top" alt="..." height="350px">
-                <div class="card-body" id="avalie">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <!-- slide2 -->
@@ -108,6 +124,13 @@
                 <img src="bootstrapNew/img/tatto6.jpg" class="card-img-top" alt="..." height="350px">
                 <div class="card-body" id="avalie">
                   <h5 class="card-title">Card title</h5>
+                  <div class="star-rating" data-rating="0">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -116,6 +139,13 @@
                 <img src="bootstrapNew/img/tatto8.jpg" class="card-img-top" alt="..." height="350px">
                 <div class="card-body" id="avalie">
                   <h5 class="card-title">Card title</h5>
+                  <div class="star-rating" data-rating="0">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -124,6 +154,13 @@
                 <img src="bootstrapNew/img/tatto9.jpg" class="card-img-top" alt="..." height="350px">
                 <div class="card-body" id="avalie">
                   <h5 class="card-title">Card title</h5>
+                  <div class="star-rating" data-rating="0">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -141,6 +178,13 @@
                 <img src="bootstrapNew/img/tattoo1.jpg" class="card-img-top" alt="..." height="350px">
                 <div class="card-body" id="avalie">
                   <h5 class="card-title">Card title</h5>
+                  <div class="star-rating" data-rating="0">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                  </div>
 
                 </div>
               </div>
@@ -150,7 +194,13 @@
                 <img src="bootstrapNew/img/tatto10.jpg" class="card-img-top" alt="..." height="350px">
                 <div class="card-body" id="avalie">
                   <h5 class="card-title">Card title</h5>
-
+                  <div class="star-rating" data-rating="0">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -158,7 +208,14 @@
               <div class="card" style="width: 18rem;">
                 <img src="bootstrapNew/img/tatto5.jpg" class="card-img-top" alt="..." height="350px">
                 <div class="card-body" id="avalie">
-                 <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Card title</h5>
+                  <div class="star-rating" data-rating="0">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -179,15 +236,171 @@
   <br><br>
   <!-- parte 2 -->
   <div class="container-fluid" id="imagem2">
-
+    <br>
+    <center>
+      <div class="portifolio">
+        <h1>Artistas</h1>
+    </center>
+    <br><br>
+    <div class="container" >
+      <center> <div class="row">
+        <div class="col">
+          <div class="card-new" style="width: 20rem;">
+            <center> <img class="rounded-circle" src="bootstrapNew/img/Edu.png" alt="Card image cap" width="85px"
+                height="85px" style="margin-top: 5px;">
+            </center>
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Caio</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+              <br><br>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-new" style="width: 20rem;">
+            <center> <img class="rounded-circle" src="bootstrapNew/img/Marecele.png" alt="Card image cap" width="85px"
+                height="85px" style="margin-top: 5px;">
+            </center>
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Marcele</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+              <br><br>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-new" style="width: 20rem;">
+            <center> <img class="rounded-circle" src="bootstrapNew/img/Marcelo.png" alt="Card image cap" width="85px"
+                height="85px" style="margin-top: 5px;">
+            </center>
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Eduardo</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+              <br><br>
+            </div>
+          </div>
+        </div>
+      </div></center>
+     
+    </div>
+    <br>
+    <br>
   </div>
+  <br>
+  <div class="container-fluid" id="imagem3">
+    <center>
+      <div class="portifolio">
+        <h1>Orçamento</h1>
+    </center>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nome:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Telefone:</label>
+              <input type="text" class="form-control" id="text">
+            </div>
+        </div>
+        <div class="col col-lg-2">
+          <label for="exampleInputEmail1" class="form-label">Dimensao em cm:</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <br><br>
+          <label for="exampleInputEmail1" class="form-label">Tipo:</label>
+          <br>
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Colorida</label>
+          <br>
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Preto e Branco</label>
+        </div>
+      </div>
+      <center> <button type="submit" class="btn btn-dark">Calcular</button>
+      </center>
+      </form>
+    </div>
+  </div>
+  <br><br><br>
+  <footer style="background-color: black;">
+  
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <img src="bootstrapNew/img/logo1.png" alt="" srcset="" width="100px">
 
+        </div>
+        <div class="col">
+          <br>
+        <b class="text-justify" style="color: white;" href="#">Institucional: </b>
+
+          <ul class="list-group" style="list-style: none;">
+
+            <li class="nav-item"> <a class="text-justify" href="#">Home </a></li>
+            <li class="nav-item"> <a class="text-justify" href="#">Portifólio </a></li>
+            <li class="nav-item"> <a class="text-justify" href="#">Artistas </a></li>
+            <li class="nav-item"> <a class="text-justify" href="#">Orçamento </a></li>
+            <li class="nav-item"> <a class="text-justify" href="#">Blog </a></li>
+            <br><br>
+          
+          </ul> 
+        </div>
+        <div class="col">
+          <br>
+        <b class="text-justify" style="color: white;" href="#">Redes Sociais: </b><br>
+          <a href="#">           <img src="bootstrapNew/img/twitter.png" alt="" srcset="" width="50px">
+          </a>
+          <a href="#">           <img src="bootstrapNew/img/images.png" alt="" srcset="" width="40px">
+          </a>
+
+            <br><br>
+          
+         
+        </div>
+        <div class="col">
+          <br>
+          <b class="text-justify" style="color: white;" href="#">Horários: </b>
+          <br>
+          <ul class="list-group" style="list-style: none;">
+
+            <li class="nav-item"> <a class="text-justify" href="#">segunda-feira: 13:00 as 23:30 </a></li>
+            <li class="nav-item"> <a class="text-justify" href="#">terça-feira:9:00 as 23:00 </a></li>
+            <li class="nav-item"> <a class="text-justify" href="#">quarta-feira: 9:00 as 23:00</a></li>
+            <li class="nav-item"> <a class="text-justify" href="#">quinta-feira:9:00 as 23:00 </a></li>
+             <li class="nav-item"> <a class="text-justify" href="#">sexta-feira:9:00 as 23:00 </a></li>
+             <li class="nav-item"> <a class="text-justify" href="#">sabádo:9:00 as 17:00 </a></li>
+
+
+            <br><br>
+          
+          </ul>         </div>
+        <div class="col">
+          <br>
+          <b class="text-justify" style="color: white;" href="#">Local: </b>
+          <br>        
+        <a href="#">Rua:Paranaiba,82-Centro-Formiga-MG</a>
+        </div>
+      </div>
+    </div>
+    <div id="linha">
+    </div>
+    <br>
+    <div>
+      <center> DESENVOLVIDOR POR :LMY</center>
+     </div>
+     <br>
+ 
+  </footer>
   <script src="bootstrapNew/js/bootstrap.bundle.min.js"></script>
-  <script src="bootstrapNew/js/bootstrap.min.js"></script>
-
-  <script>
-    $('.carousel').carousel()
-  </script>
+  <script src="bootstrapNew/js/estrela.js"></script>
 </body>
 
 </html>
