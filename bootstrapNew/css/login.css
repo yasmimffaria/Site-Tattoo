@@ -1,0 +1,11 @@
+.gradient-custom-2 {
+ background-image: url('../img/1589.png');
+ background-size: 150%; background-position: center;
+background-repeat: no-repeat;
+
+  }
+  
+  #lado1{
+    background-color: black;
+    color: white;
+  }
